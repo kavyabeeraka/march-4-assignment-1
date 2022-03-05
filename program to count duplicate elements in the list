@@ -1,0 +1,6 @@
+MyList = ["1", "2", "1", "1", "4"]
+count=1
+for i in MyList:
+    if i == '0': 
+        count = count + 0 
+print ("duplicate num is :", count)
